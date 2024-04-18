@@ -1,0 +1,492 @@
+/* HOME PAGE*/
+@media(max-width:840px) 
+{
+    
+    #navitems
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: fixed;
+        right: -45%;
+        top: 0;
+        height: 100vh;
+        width:40%;
+        background-color: white;
+        padding: 6rem 0 0 1rem;
+        transition: 0.4s ease;
+    }
+    #navitems.active
+    {
+        right: 0;
+    }
+    #navitems li
+    {
+        margin: 1.5rem 0;
+    }
+    #mobile
+    {
+        display: flex;
+        align-items: center;
+        margin: 0 2rem;
+    }
+    #mobile i 
+    {
+        color: black;
+        font-size: 1.3rem;
+        padding: 1rem;
+    }
+    #lg-cart
+    {
+        display: none ;
+    }
+    #close
+    {
+        display: initial;
+        position: absolute;
+        top: 5%;
+        left:12%;
+        text-decoration: none;
+        color: black;
+        font-size: 1.5rem;
+    }
+    #close:hover
+    {
+        color: #09814A;
+    }
+    #hero
+    {
+        height: 90vh;   
+        padding: 0 4rem;
+        background-position: top 30% right 30%;  
+    }
+    #hero button
+    {
+        width: 30%;
+    }
+    #products .product-container
+    {
+        padding-top: 2rem;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 0 3rem;
+    }
+    #products .product
+    {
+        width: 40%;
+    }
+    #action-banner 
+    {
+        width: 100%;
+        height: 25vh;
+        margin: 1.5rem 0;
+    }
+    #sm-banner .banner-box
+    {
+        width: 100vw;
+        height: 35vh;
+    }
+    #txt-banner
+    {
+        padding: 0 2rem;
+    }
+    #txt-banner .banner-box
+    {
+        width:25%;
+        background-position-y:25% ;
+        background-position-x: 50%;
+    }
+    #footer .column
+    {
+        padding: 0 2rem;
+    }
+
+    /*SHOP*/
+    #products .invisible
+    {
+        display: none;
+    }
+    #pagination .page
+    {
+        width: 8%;
+    }
+
+    /*BLOG */
+    #blog img
+    {
+        width: 100%;
+        height: 35vh;
+        object-fit: cover;
+    }
+    /*CART*/
+    #cart
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .cartItems
+    {
+        width: 100%;
+        margin: 1rem 0;
+    }
+    #checkout
+    {
+        width: 100%;
+    }
+}
+@media(min-width:840px) and (max-width:1600px)
+{
+    #navitems li a
+    {
+        font-size: 1.2rem;
+    }
+    #hero
+    {
+        height: 90vh;   
+        padding: 0 4rem;
+        background-position: top 20% right 40%;  
+    }
+    #products .product
+    {
+        width: 20%;
+    }
+    #sm-banner .banner-box
+    {
+        width: 40%;
+        height: 50vh;
+    }
+    #action-banner 
+    {
+        height: 35vh;
+    }
+    #txt-banner
+    {
+        display: 0 3rem;
+    }
+    #txt-banner .banner-box
+    {
+        margin: 0 -0.5rem;
+    }
+    #txt-banner .banner-box
+    {
+        width:26%;
+        background-position-y:25% ;
+        background-position-x: 50%;
+    }
+    /*SHOP*/
+    #products .page1 .product, #products .page2 .product
+    {
+        width: 20%;
+    }
+    #pagination .page
+    {
+        width: 6%;
+    }
+    #products .invisible
+    {
+        display: none;
+    }
+
+    /*BLOG */
+    #blog img
+    {
+        width: 100%;
+        height: 35vh;
+        object-fit: cover;
+    }
+    /*ABOUTS US*/
+    #aboutus .about-img
+    {
+        width: 60%;
+    }
+    #aboutus .about-details p
+    {
+        font-size: 1.4rem;
+    }
+    /*CART*/
+    #checkout .coupon button, #checkout button
+    {
+        width: 50%;
+    }
+}
+@media(min-width:840px) and (max-width:1000px)
+{
+    #products .product
+    {
+        width: 40%;
+    }
+    #sm-banner .banner-box
+    {
+        width: 100vw;
+        height: 40vh;
+    }
+    #checkout .coupon button, #checkout button
+    {
+        width: 70%;
+    }
+}
+
+@media (min-width:570px) and (max-width:685px)
+{
+    
+    #navitems
+    {
+        right: -45%;
+    }
+    #hero h1
+    {
+        font-size: 4rem;
+        padding: 1rem 0;
+    }
+    #hero button
+    {
+        width: 30%;
+    }
+    
+    #hero
+    {
+        height: 90vh;   
+        padding: 0 4rem;
+        background-position: top 30% right 30%;  
+    }
+    #txt-banner .banner-box
+    {
+        width: 23%;
+        height: 25vh;
+    }
+    /*SHOP*/
+    #product-details
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    #product-details .single-prod-img
+    {
+        width: 100%;
+        margin:0
+    }
+    #product-details .single-prod-details button
+    {
+        width: 40%;
+    }
+    #product-details .single-prod-details
+    {
+        width: 100%;
+        margin-left: 1rem;
+    }
+    #products .invisible
+    {
+        display: none;
+    }
+    #pagination .page
+    {
+        width: 10%;
+    }
+    /*BLOG */
+    #blog .blog-box
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    #blog .blog-img
+    {
+        width: 100%;
+        margin:0;
+    }
+    #blog .blog-details
+    {
+        width: 100%;
+        margin: 0;
+    }
+    #blog
+    {
+        margin: 6rem 3.5rem 0 3.5rem;
+    }
+    /*ABOUT US PAGE*/
+    #aboutus .knowus
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 2.5rem 0;
+    }
+    #aboutus .about-img, #aboutus .about-details
+    {
+        width: 100%;
+    }
+
+
+}
+@media (max-width:570px)
+{
+    
+    #navitems
+    {
+        right: -55%; 
+    }
+
+    #txt-banner .banner-box
+    {
+        width: 100%;
+        height: 25vh;
+    }
+    #products .invisible
+    {
+        display: none;
+    }
+    #pagination .page
+    {
+        width: 10%;
+    }
+    #hero h2
+    {
+          font-size: 2.5rem;  
+    }
+    #hero h1
+    {
+        font-size: 3rem;
+        padding: 1rem 0;
+    }
+    /*SHOP*/
+    #product-details
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    #product-details .single-prod-img
+    {
+        width: 100%;
+        margin:0
+    }
+    #product-details .single-prod-details button
+    {
+        width: 40%;
+    }
+    #product-details .single-prod-details
+    {
+        width: 100%;
+        margin-left: 1rem;
+    }
+    /*BLOG*/
+    #page-header h2
+    {
+        font-size: 3rem;
+    }
+    #blog
+    {
+        margin: 6rem 3rem 0 3rem;
+    }
+    #blog .blog-box
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    #blog .blog-img
+    {
+        width: 100%;
+        margin:0;
+    }
+    #blog .blog-details
+    {
+        width: 100%;
+        margin: 0;
+    }
+    /*ABOUT US PAGE*/
+    #aboutus .knowus
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 2.5rem 0;
+    }
+    #aboutus .about-img, #aboutus .about-details
+    {
+        width: 100%;
+    }
+
+    /*CART*/
+    #checkout .coupon button, #checkout button
+    {
+        width: 40%;
+    }
+}
+@media (max-width:480px)
+{
+    
+    #navitems
+    {
+        width: 50vw;
+        font-size: 0.6rem;
+    }
+    #newsletter input
+    {
+        font-size: 0.875rem;
+        width: 40%;
+        padding: 0 3rem 0 1.5rem;
+    }
+    
+    #newsletter button
+    {
+        padding: 0 1rem;
+        font-size: 1.05rem;
+    }
+    #action-banner h4
+    {
+    color: white;
+    font-family:"Roboto", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    }
+    #action-banner h2
+    {
+        font-size: 1.5rem;
+    }
+    #hero h1
+    {
+        font-size: 4rem;
+        padding: 1rem 0;
+    }
+    #hero button
+    {
+        width: 50%;
+    }
+    /*SHOP*/
+    #product-details
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    #product-details .single-prod-img
+    {
+        width: 100%;
+        margin:0
+    }
+    #product-details .single-prod-details button
+    {
+        width: 40%;
+    }
+    #product-details .single-prod-details
+    {
+        width: 100%;
+        margin-left: 1rem;
+    }
+    #pagination .page
+    {
+        width: 12%;
+    }
+    #products .invisible
+    {
+        display: none;
+    }
+    /*CART*/
+    #checkout .coupon button, #checkout button
+    {
+        width: 70%;
+    }
+}
